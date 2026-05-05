@@ -4,14 +4,20 @@ import ParticleField from "@/components/celebration/ParticleField";
 import CursorAura from "@/components/celebration/CursorAura";
 import LoadingScreen from "@/components/celebration/LoadingScreen";
 import Hero from "@/components/celebration/Hero";
-import AINarrative from "@/components/celebration/AINarrative";
-import Timeline from "@/components/celebration/Timeline";
-import CelebrationProtocol from "@/components/celebration/CelebrationProtocol";
-import Identity from "@/components/celebration/Identity";
+import BuildUp from "@/components/celebration/BuildUp";
+import PeakMoment from "@/components/celebration/PeakMoment";
+import MotivationalMessages from "@/components/celebration/MotivationalMessages";
+import EmotionalPeak from "@/components/celebration/EmotionalPeak";
 import FinalScene from "@/components/celebration/FinalScene";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Semester 8 — Completed" },
+      { name: "description", content: "A cinematic celebration of finishing the final chapter." },
+    ],
+  }),
 });
 
 function Index() {
@@ -23,14 +29,14 @@ function Index() {
       <CursorAura />
 
       <div
-        className="relative z-10 transition-opacity duration-700"
+        className="relative z-10 transition-opacity duration-1000"
         style={{ opacity: ready ? 1 : 0 }}
       >
         <Hero />
-        <AINarrative />
-        <Timeline />
-        <CelebrationProtocol />
-        <Identity />
+        <BuildUp />
+        <PeakMoment />
+        <MotivationalMessages />
+        <EmotionalPeak />
         <FinalScene />
       </div>
     </main>
