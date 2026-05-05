@@ -33,10 +33,14 @@ export const Route = createRootRoute({
       { name: "description", content: "An immersive AI-powered celebration of an 8-semester journey: leader, co-founder, programmer." },
       { name: "author", content: "Ceremony.AI" },
       { property: "og:title", content: "A Journey Completed — A Future Unlocked" },
-      { property: "og:description", content: "A digital award ceremony designed by the future." },
+      { property: "og:description", content: "An immersive AI-powered celebration of an 8-semester journey: leader, co-founder, programmer." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "A Journey Completed — A Future Unlocked" },
+      { name: "twitter:description", content: "An immersive AI-powered celebration of an 8-semester journey: leader, co-founder, programmer." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61c9ea92-030e-475b-9719-899c640ff989/id-preview-114a2126--4951525f-4ad6-493b-9bf9-940f93f0e1e7.lovable.app-1778013978088.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61c9ea92-030e-475b-9719-899c640ff989/id-preview-114a2126--4951525f-4ad6-493b-9bf9-940f93f0e1e7.lovable.app-1778013978088.png" },
     ],
     links: [
       {
